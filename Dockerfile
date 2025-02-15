@@ -12,5 +12,5 @@ COPY ./requirements.txt /requirements.txt
 RUN pip3 install -r /requirements.txt
 
 COPY . .
-EXPOSE 9090
+EXPOSE 9000
 CMD ["python3", "main.py"]
